@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Dela+Gothic+One&family=Koulen&family=Lato:ital@1&family=Monoton&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@700&family=Permanent+Marker&family=Raleway:wght@600&family=Red+Hat+Mono:wght@500&family=Roboto+Condensed:wght@300;700&family=Rubik:wght@400;500;600&family=Smooch+Sans&family=Ubuntu:wght@500&display=swap');
+
+
+
+ 
+*{
+  margin : 0;
+  padding : 0;
+  text-decoration: none;
+  border : 0;
+  vertical-align: baseline;
+
+}
+
+.wavescenter {
+    background-color:#0AA1DD;
+    width: 100%;
+    height: 600px;
+     z-index: -10;  
+     margin-top:-10px ;
+}
+
+.waves > .waves1{
+    margin-top: 50px;
+    z-index: 10;
+}
+
+.waves > .waves2  {
+    transform:rotate(180deg);
+    margin-top: -5px;
+
+}
+ 
+
+
+
+
+.waves {    margin-top:100px;
+}
+
+.kosong {
+    height: 1000px;
+}
+
+ul {
+    display : flex;
+}
+
+.bg{
+    height : 50px;
+    width : 100px;
+    margin : 1px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius:20px;
+}
+
+li {
+    display : inline;
+    margin : 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size : 18px;
+    height:100px;
+    width:100px;
+    
+}
+
+
+
+
+.bg:hover {
+    background-color: #0AA1DD;
+    transition : 1s;
+}
+
+#gambarlogo {
+    filter: grayscale(80%);
+    -webkit-filter: grayscale(80%);
+    -moz-filter: grayscale(80%);
+    transition: 1s;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 48,
+   
+}
+
+#gambarlogo:hover{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+}
+
+.logo {
+    height: 30px;
+    margin : 10px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    transition: 1s;
+}
+
+.logo:hover{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+  
+}
+
+.socialmedia {
+    display: flex;
+    
+
+}
+
+
+
+
+.desription {
+    display : flex;
+    flex-direction: column;
+    margin-left : 240px;
+    margin-right: 240px;
+    letter-spacing: 1px;
+}
+
+.profilepicture {
+margin-top: 40px;
+align-self: center;
+
+}
+
+
+.allskill {
+    display : flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+.allskill > .skillcard {
+    justify-content: center;
+    align-self: center;
+    margin : 20px;
+    
+   
+}
+
+#nightmode  span {
+    cursor: pointer;
+}
