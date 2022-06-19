@@ -25,3 +25,23 @@ lightmode.addEventListener("click",function(){
 });
 
 
+
+function addClassOnScroll() {
+  header.classList.add("nav-border");
+};
+
+function removeClassOnScroll(){
+  header.classList.remove("nav-border");
+};
+
+window.addEventListener('scroll',function(){
+  scrollpos = window.scrollY;
+
+  if(scrollpos){
+    addClassOnScroll();
+  }else {
+    removeClassOnScroll();
+  };
+
+});
+
