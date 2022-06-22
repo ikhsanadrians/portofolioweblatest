@@ -45,3 +45,20 @@ window.addEventListener('scroll',function(){
 
 });
 
+const menuToggle = document.querySelector(".hamburger");
+const nav = document.querySelector(".mobilenav");
+let checkboxburger = document.querySelector("#checkboxhamburger");
+
+
+menuToggle.addEventListener('click',function(){
+  nav.classList.toggle('slide');
+  checkboxburger.checked = false;
+  body.classList.toggle("bodysaturation");
+});
+
+
+const closemenumobile = document.querySelector("#closemobilemenu");
+closemenumobile.addEventListener("click",function(){
+  nav.classList.remove('slide');
+});
+ 
