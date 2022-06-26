@@ -323,10 +323,26 @@ align-self: center;
 
 }
 
+.quicklinks > ol > li > *{
+    margin-bottom : -14px;
+    cursor: pointer;
+}
+
+.reach > ol > li > * {
+    margin-bottom: -14px;
+    cursor: pointer;
+}
 
 
-@media (max-width:600px){
+@media (max-width:500px){
+.innerfill {
+    display : flex; 
+    flex-direction: column;
+ }
 
+ .reach {
+    margin-left : 2%;
+ }
 }
 
 
