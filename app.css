@@ -334,15 +334,15 @@ align-self: center;
 }
 
 
-@media (max-width:500px){
-.innerfill {
-    display : flex; 
-    flex-direction: column;
- }
 
- .reach {
-    margin-left : 2%;
- }
+@media (max-width:688px){
+
+    .components {
+       flex-direction: column;
+       justify-content: flex-start;
+       margin-left: -10%;
+    }
+
 }
 
 
@@ -477,3 +477,19 @@ align-self: center;
 .langinfo > * {
     cursor: pointer;
 }
+
+.quicklinks > ul > li > p {
+  margin-bottom : -15px;
+}
+
+.reach > ul > li > p {
+    margin-bottom : -15px;
+  }
+  
+
+
+  .components {
+    display : flex;
+    justify-content: space-between;
+   
+  }
